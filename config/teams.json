@@ -1,8 +1,42 @@
 {
-  "_comment": "Fill 'teams' arrays with objects like {\"id\": 65, \"name\": \"Manchester City\"} - run scripts/list-teams.js to get real IDs for the 5 clubs you want per league. Leave any league's teams empty to skip it.",
-  "epl":        { "competitionCode": "PL",  "teams": [] },
-  "laliga":     { "competitionCode": "PD",  "teams": [] },
-  "seriea":     { "competitionCode": "SA",  "teams": [] },
-  "bundesliga": { "competitionCode": "BL1", "teams": [] },
-  "ligue1":     { "competitionCode": "FL1", "teams": [] }
+  "epl": {
+    "competitionCode": "PL",
+    "teams": [
+      { "id": 57, "name": "Arsenal FC" },
+      { "id": 58, "name": "Aston Villa FC" },
+      { "id": 61, "name": "Chelsea FC" },
+      { "id": 64, "name": "Liverpool FC" },
+      { "id": 65, "name": "Manchester City FC" },
+      { "id": 66, "name": "Manchester United FC" }
+    ]
+  },
+  "laliga": {
+    "competitionCode": "PD",
+    "teams": [
+      { "id": 78, "name": "Club Atlético de Madrid" },
+      { "id": 81, "name": "FC Barcelona" },
+      { "id": 86, "name": "Real Madrid CF" }
+    ]
+  },
+  "seriea": {
+    "competitionCode": "SA",
+    "teams": [
+      { "id": 98, "name": "AC Milan" },
+      { "id": 108, "name": "FC Internazionale Milano" },
+      { "id": 109, "name": "Juventus FC" }
+    ]
+  },
+  "bundesliga": {
+    "competitionCode": "BL1",
+    "teams": [
+      { "id": 4, "name": "Borussia Dortmund" },
+      { "id": 5, "name": "FC Bayern München" }
+    ]
+  },
+  "ligue1": {
+    "competitionCode": "FL1",
+    "teams": [
+      { "id": 524, "name": "Paris Saint-Germain FC" }
+    ]
+  }
 }
