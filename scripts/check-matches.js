@@ -64,6 +64,15 @@ async function fetchCompetitionMatches(code) {
 }
 
 async function sendPush(title, body, url) {
+  const subscriptionIds = (process.env.ONESIGNAL_SUBSCRIPTION_IDS || '')
+    .split(',')
+    .map(s => s.trim())
+    .filter(Boolean);
+
+  const targeting = subscriptionIds.length > 0
+    ? { include_subscription_ids: subscriptionIds }
+    : { included_segments: ['Subscribed Users'] };
+
   const res = await fetch('https://onesignal.com/api/v1/notifications', {
     method: 'POST',
     headers: {
@@ -72,7 +81,7 @@ async function sendPush(title, body, url) {
     },
     body: JSON.stringify({
       app_id: ONESIGNAL_APP_ID,
-      included_segments: ['Subscribed Users'],
+      ...targeting,
       headings: { en: title },
       contents: { en: body },
       ...(url ? { url } : {})
