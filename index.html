@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Floodlight</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0F1B16">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Floodlight">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" href="icon-192.png">
+
+<!-- OneSignal Web Push SDK -->
+<script defer src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js"></script>
+<script>
+  window.OneSignalDeferred = window.OneSignalDeferred || [];
+  OneSignalDeferred.push(async function (OneSignal) {
+    await OneSignal.init({
+      appId: "YOUR_ONESIGNAL_APP_ID", // <-- replace after you create your OneSignal app
+      notifyButton: { enable: false },
+      allowLocalhostAsSecureOrigin: true
+    });
+  });
+</script>
+
+<style>
+  :root{
+    --bg:#0F1B16; --card:#17251E; --hairline:rgba(245,243,231,0.10);
+    --floodlight:#F5F3E7; --muted:#8AA093; --muted-dim:#5C6E62;
+    --pitch:#2E9E5B; --pitch-deep:#1E7A46; --gold:#E8B54B; --danger:#E2574C;
+    --epl:#3D195B; --laliga:#EE8707; --seriea:#0B8A3C; --bundesliga:#D20515; --ligue1:#0A5FBF;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;min-height:100vh;background:var(--bg);color:var(--floodlight);
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:480px;margin:0 auto;padding:0 0 90px;}
+  header{padding:calc(env(safe-area-inset-top) + 18px) 20px 10px;display:flex;align-items:center;justify-content:space-between;}
+  .wordmark{font-size:22px;font-weight:800;letter-spacing:-0.02em;display:flex;align-items:center;gap:7px;}
+  .bulb{width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 10px 3px rgba(232,181,75,0.6);}
+
+  .status-banner{margin:0 20px 14px;padding:12px 14px;border-radius:12px;font-size:12.5px;line-height:1.5;
+    border:1px solid var(--hairline);background:var(--card);color:var(--muted);}
+  .status-banner b{color:var(--floodlight);}
+  .status-banner.warn{border-color:rgba(232,181,75,0.35);color:var(--gold);background:rgba(232,181,75,0.06);}
+
+  .subscribe-row{margin:0 20px 18px;}
+  .subscribe-btn{width:100%;padding:13px 0;border-radius:12px;border:none;font-size:14px;font-weight:800;
+    background:linear-gradient(180deg,#F5F3E7,#E7E3D2);color:#0B1310;cursor:pointer;}
+  .subscribe-sub{font-size:11px;color:var(--muted-dim);text-align:center;margin-top:7px;}
+
+  .section-label{padding:6px 22px 10px;font-size:12.5px;color:var(--muted);display:flex;justify-content:space-between;}
+  .section-label b{color:var(--floodlight);font-weight:700;}
+
+  .list{padding:0 20px;}
+  .match-card{background:var(--card);border:1px solid var(--hairline);border-left:3px solid var(--league-color,var(--pitch));
+    border-radius:14px;padding:13px 14px;margin-bottom:10px;}
+  .match-top{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+  .vs-names{font-size:14px;font-weight:700;letter-spacing:-0.01em;}
+  .vs-sub{font-size:11px;color:var(--muted-dim);margin-top:3px;}
+  .badge-league{font-size:10px;font-weight:800;padding:3px 8px;border-radius:7px;background:rgba(255,255,255,0.06);
+    color:var(--muted);white-space:nowrap;}
+  .meta-row{display:flex;align-items:center;justify-content:space-between;margin-top:9px;}
+  .time-text{font-size:12.5px;font-weight:700;font-variant-numeric:tabular-nums;}
+  .live-tag{font-size:10.5px;font-weight:800;color:var(--danger);display:flex;align-items:center;gap:5px;}
+  .pulse{width:6px;height:6px;border-radius:50%;background:var(--danger);animation:pulse 1.4s infinite;}
+  @keyframes pulse{0%{opacity:1;}50%{opacity:.25;}100%{opacity:1;}}
+  .score{font-size:14px;font-weight:800;}
+  .empty{padding:40px 20px;text-align:center;color:var(--muted-dim);font-size:12.5px;line-height:1.6;}
+  a.hl-link{color:var(--gold);text-decoration:none;font-weight:700;font-size:12px;}
+
+  footer{position:fixed;bottom:0;left:0;right:0;padding:10px 20px calc(env(safe-area-inset-bottom) + 10px);
+    background:rgba(11,19,16,0.9);backdrop-filter:blur(10px);border-top:1px solid var(--hairline);
+    font-size:10.5px;color:var(--muted-dim);text-align:center;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="wordmark"><span class="bulb"></span>Floodlight</div>
+  </header>
+
+  <div id="statusBanner" class="status-banner">Loading match data…</div>
+
+  <div class="subscribe-row">
+    <button class="subscribe-btn" onclick="subscribe()">Turn on kickoff alerts</button>
+    <div class="subscribe-sub">One tap. You'll get a push when a tracked match is about to start, kicks off, or ends.</div>
+  </div>
+
+  <div class="section-label"><b>Tracked matches</b><span id="lastChecked"></span></div>
+  <div class="list" id="matchList"></div>
+
+  <footer>Install this page to your home screen (Share → Add to Home Screen on iPhone, or the install icon in Chrome) so it behaves like a real app.</footer>
+</div>
+
+<script>
+const LEAGUE_COLORS = { PL:'var(--epl)', PD:'var(--laliga)', SA:'var(--seriea)', BL1:'var(--bundesliga)', FL1:'var(--ligue1)' };
+const LEAGUE_NAMES  = { PL:'Premier League', PD:'La Liga', SA:'Serie A', BL1:'Bundesliga', FL1:'Ligue 1' };
+
+async function subscribe(){
+  if (!window.OneSignal) { alert('Notifications are still loading — try again in a second.'); return; }
+  try {
+    await OneSignal.Notifications.requestPermission();
+    alert("You're set — kickoff alerts are on.");
+  } catch (e) {
+    alert('Could not enable notifications on this browser/device.');
+  }
+}
+
+function fmtTime(iso){
+  const d = new Date(iso);
+  return d.toLocaleString(undefined, { weekday:'short', hour:'numeric', minute:'2-digit' });
+}
+
+async function loadMatches(){
+  const banner = document.getElementById('statusBanner');
+  try {
+    const res = await fetch('./data/matches.json?_=' + Date.now());
+    if (!res.ok) throw new Error('no data yet');
+    const matches = await res.json();
+
+    banner.className = 'status-banner';
+    banner.innerHTML = `<b>${matches.length}</b> tracked match${matches.length===1?'':'es'} in the next couple of days. Data refreshes every ~10 minutes.`;
+
+    const list = document.getElementById('matchList');
+    if (!matches.length){
+      list.innerHTML = '';
+      document.getElementById('lastChecked').textContent = '';
+      banner.innerHTML = 'No matches for your tracked teams in the next couple of days.';
+      return;
+    }
+
+    list.innerHTML = matches.map(m => {
+      const isLive = m.status === 'IN_PLAY' || m.status === 'PAUSED';
+      const isFinished = m.status === 'FINISHED';
+      const color = LEAGUE_COLORS[m.league] || 'var(--pitch)';
+      const hlUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(m.home + ' vs ' + m.away + ' highlights')}`;
+      return `
+        <div class="match-card" style="--league-color:${color}">
+          <div class="match-top">
+            <div>
+              <div class="vs-names">${m.home} vs ${m.away}</div>
+              <div class="vs-sub">${LEAGUE_NAMES[m.league] || m.league}</div>
+            </div>
+            <div class="badge-league">${m.league}</div>
+          </div>
+          <div class="meta-row">
+            ${isLive
+              ? `<div class="live-tag"><span class="pulse"></span>LIVE</div>`
+              : isFinished
+                ? `<div class="score">${m.score || ''} · Full time</div>`
+                : `<div class="time-text">${fmtTime(m.utcDate)}</div>`
+            }
+            ${(isLive || isFinished) ? `<div class="score">${m.score || ''}</div>` : `<a class="hl-link" href="${hlUrl}" target="_blank" rel="noopener">Set reminder</a>`}
+          </div>
+          ${isFinished ? `<div style="margin-top:8px;"><a class="hl-link" href="${hlUrl}" target="_blank" rel="noopener">Watch highlights ↗</a></div>` : ''}
+        </div>
+      `;
+    }).join('');
+
+    document.getElementById('lastChecked').textContent = 'updated ' + new Date().toLocaleTimeString();
+  } catch (e) {
+    banner.className = 'status-banner warn';
+    banner.innerHTML = `No match data yet. This file is written by the GitHub Action — <b>run it once manually</b> from the Actions tab, then reload this page.`;
+  }
+}
+
+loadMatches();
+setInterval(loadMatches, 5 * 60 * 1000);
+</script>
+</body>
+</html>
