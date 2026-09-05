@@ -46,7 +46,15 @@ async function fetchCompetitionMatches(code) {
   const from = today.toISOString().slice(0, 10);
   const to = new Date(today.getTime() + 2 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
   const url = `https://api.football-data.org/v4/competitions/${code}/matches?dateFrom=${from}&dateTo=${to}`;
-  const res = await fetch(url, { headers: { 'X-Auth-Token': API_KEY } });
+
+  let res = await fetch(url, { headers: { 'X-Auth-Token': API_KEY } });
+  if (!res.ok) {
+    // Transient errors happen occasionally - wait a moment and retry once before giving up.
+    console.log(`First attempt for ${code} failed (${res.status}) - retrying in 5s...`);
+    await new Promise(r => setTimeout(r, 5000));
+    res = await fetch(url, { headers: { 'X-Auth-Token': API_KEY } });
+  }
+
   if (!res.ok) {
     console.error(`Failed to fetch ${code}:`, res.status, await res.text());
     return [];
