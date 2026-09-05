@@ -115,7 +115,7 @@ async function main() {
     const scoreNow = `${m.score?.fullTime?.home ?? m.score?.halfTime?.home ?? 0}-${m.score?.fullTime?.away ?? m.score?.halfTime?.away ?? 0}`;
 
     const soonKey = `soon-${matchId}`;
-    if (m.status === 'SCHEDULED' && minsToKickoff > 0 && minsToKickoff <= LEAD_MINUTES && !state.notified[soonKey]) {
+    if ((m.status === 'SCHEDULED' || m.status === 'TIMED') && minsToKickoff > 0 && minsToKickoff <= LEAD_MINUTES && !state.notified[soonKey]) {
       await sendPush('Kickoff soon', `${label} starts in about ${Math.round(minsToKickoff)} min.`);
       state.notified[soonKey] = true;
     }
