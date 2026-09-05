@@ -4,9 +4,9 @@
     "league": "BL1",
     "home": "Hoffenheim",
     "away": "Dortmund",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-09-05T13:30:00Z",
-    "score": null
+    "score": "0-0"
   },
   {
     "id": 560563,
@@ -15,6 +15,15 @@
     "away": "Coventry City",
     "status": "TIMED",
     "utcDate": "2026-09-05T14:00:00Z",
+    "score": null
+  },
+  {
+    "id": 564663,
+    "league": "PD",
+    "home": "Athletic",
+    "away": "Atleti",
+    "status": "TIMED",
+    "utcDate": "2026-09-05T14:15:00Z",
     "score": null
   },
   {
@@ -51,6 +60,15 @@
     "away": "Man United",
     "status": "TIMED",
     "utcDate": "2026-09-06T13:00:00Z",
+    "score": null
+  },
+  {
+    "id": 564659,
+    "league": "PD",
+    "home": "Valencia",
+    "away": "Barça",
+    "status": "TIMED",
+    "utcDate": "2026-09-06T14:15:00Z",
     "score": null
   },
   {

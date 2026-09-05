@@ -1,4 +1,8 @@
 {
-  "notified": {},
-  "scores": {}
+  "notified": {
+    "live-565787": true
+  },
+  "scores": {
+    "565787": "0-0"
+  }
 }
