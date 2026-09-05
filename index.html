@@ -20,7 +20,9 @@
     await OneSignal.init({
       appId: "1b62d04c-d4fb-4ebb-80a3-28b130478b54",
       notifyButton: { enable: false },
-      allowLocalhostAsSecureOrigin: true
+      allowLocalhostAsSecureOrigin: true,
+      serviceWorkerParam: { scope: "/floodlight/" },
+      serviceWorkerPath: "floodlight/OneSignalSDKWorker.js"
     });
   });
 </script>
