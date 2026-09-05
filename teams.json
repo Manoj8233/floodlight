@@ -1,0 +1,8 @@
+{
+  "_comment": "Fill 'teams' arrays with objects like {\"id\": 65, \"name\": \"Manchester City\"} - run scripts/list-teams.js to get real IDs for the 5 clubs you want per league. Leave any league's teams empty to skip it.",
+  "epl":        { "competitionCode": "PL",  "teams": [] },
+  "laliga":     { "competitionCode": "PD",  "teams": [] },
+  "seriea":     { "competitionCode": "SA",  "teams": [] },
+  "bundesliga": { "competitionCode": "BL1", "teams": [] },
+  "ligue1":     { "competitionCode": "FL1", "teams": [] }
+}
