@@ -63,25 +63,9 @@ async function fetchCompetitionMatches(code) {
   return data.matches || [];
 }
 
-async function fetchSubscriberIds() {
-  const res = await fetch(`https://onesignal.com/api/v1/players?app_id=${ONESIGNAL_APP_ID}&limit=300`, {
-    headers: { 'Authorization': `Key ${ONESIGNAL_REST_API_KEY}` }
-  });
-  if (!res.ok) {
-    console.error('Failed to fetch subscriber list:', res.status, await res.text());
-    return [];
-  }
-  const data = await res.json();
-  const ids = (data.players || [])
-    .filter(p => p.notification_types === 1) // 1 = actively subscribed to push
-    .map(p => p.id);
-  console.log(`Found ${ids.length} active subscriber(s).`);
-  return ids;
-}
-
 async function sendPush(subscriberIds, title, body, url) {
   if (subscriberIds.length === 0) {
-    console.log('No active subscribers - skipping push:', title);
+    console.log('No subscriber IDs configured - skipping push:', title);
     return;
   }
 
@@ -115,7 +99,11 @@ async function main() {
   }
 
   const codes = [...new Set(leagueEntries().map(([, l]) => l.competitionCode))];
-  const subscriberIds = await fetchSubscriberIds();
+  const subscriberIds = (process.env.ONESIGNAL_SUBSCRIPTION_IDS || '')
+    .split(',')
+    .map(s => s.trim())
+    .filter(Boolean);
+  console.log(`Configured with ${subscriberIds.length} subscriber ID(s).`);
 
   let allMatches = [];
   for (const code of codes) {
