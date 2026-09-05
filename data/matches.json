@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "id": 560563,
+    "league": "PL",
+    "home": "Man City",
+    "away": "Coventry City",
+    "status": "TIMED",
+    "utcDate": "2026-09-05T14:00:00Z",
+    "score": null
+  },
+  {
+    "id": 564663,
+    "league": "PD",
+    "home": "Athletic",
+    "away": "Atleti",
+    "status": "TIMED",
+    "utcDate": "2026-09-05T14:15:00Z",
+    "score": null
+  },
+  {
+    "id": 558614,
+    "league": "SA",
+    "home": "Inter",
+    "away": "Napoli",
+    "status": "TIMED",
+    "utcDate": "2026-09-05T16:00:00Z",
+    "score": null
+  },
+  {
+    "id": 560569,
+    "league": "PL",
+    "home": "Hull City",
+    "away": "Aston Villa",
+    "status": "TIMED",
+    "utcDate": "2026-09-05T16:30:00Z",
+    "score": null
+  },
+  {
+    "id": 560567,
+    "league": "PL",
+    "home": "Everton",
+    "away": "Man United",
+    "status": "TIMED",
+    "utcDate": "2026-09-06T13:00:00Z",
+    "score": null
+  },
+  {
+    "id": 564659,
+    "league": "PD",
+    "home": "Valencia",
+    "away": "Barça",
+    "status": "TIMED",
+    "utcDate": "2026-09-06T14:15:00Z",
+    "score": null
+  },
+  {
+    "id": 560570,
+    "league": "PL",
+    "home": "Arsenal",
+    "away": "Chelsea",
+    "status": "TIMED",
+    "utcDate": "2026-09-06T15:30:00Z",
+    "score": null
+  },
+  {
+    "id": 558618,
+    "league": "SA",
+    "home": "Juventus",
+    "away": "Milan",
+    "status": "TIMED",
+    "utcDate": "2026-09-06T18:45:00Z",
+    "score": null
+  }
+]
