@@ -18,15 +18,6 @@
     "score": null
   },
   {
-    "id": 564663,
-    "league": "PD",
-    "home": "Athletic",
-    "away": "Atleti",
-    "status": "TIMED",
-    "utcDate": "2026-09-05T14:15:00Z",
-    "score": null
-  },
-  {
     "id": 558614,
     "league": "SA",
     "home": "Inter",
@@ -60,15 +51,6 @@
     "away": "Man United",
     "status": "TIMED",
     "utcDate": "2026-09-06T13:00:00Z",
-    "score": null
-  },
-  {
-    "id": 564659,
-    "league": "PD",
-    "home": "Valencia",
-    "away": "Barça",
-    "status": "TIMED",
-    "utcDate": "2026-09-06T14:15:00Z",
     "score": null
   },
   {
