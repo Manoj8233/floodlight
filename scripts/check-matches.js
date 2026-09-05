@@ -78,10 +78,11 @@ async function sendPush(title, body, url) {
       ...(url ? { url } : {})
     })
   });
+    const resultText = await res.text();
   if (!res.ok) {
-    console.error('OneSignal error:', res.status, await res.text());
+    console.error('OneSignal error:', res.status, resultText);
   } else {
-    console.log('Sent push:', title, '-', body);
+    console.log('Sent push:', title, '-', body, '| Response:', resultText);
   }
 }
 
