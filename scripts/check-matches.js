@@ -63,15 +63,27 @@ async function fetchCompetitionMatches(code) {
   return data.matches || [];
 }
 
-async function sendPush(title, body, url) {
-  const subscriptionIds = (process.env.ONESIGNAL_SUBSCRIPTION_IDS || '')
-    .split(',')
-    .map(s => s.trim())
-    .filter(Boolean);
+async function fetchSubscriberIds() {
+  const res = await fetch(`https://onesignal.com/api/v1/players?app_id=${ONESIGNAL_APP_ID}&limit=300`, {
+    headers: { 'Authorization': `Key ${ONESIGNAL_REST_API_KEY}` }
+  });
+  if (!res.ok) {
+    console.error('Failed to fetch subscriber list:', res.status, await res.text());
+    return [];
+  }
+  const data = await res.json();
+  const ids = (data.players || [])
+    .filter(p => p.notification_types === 1) // 1 = actively subscribed to push
+    .map(p => p.id);
+  console.log(`Found ${ids.length} active subscriber(s).`);
+  return ids;
+}
 
-  const targeting = subscriptionIds.length > 0
-    ? { include_subscription_ids: subscriptionIds }
-    : { included_segments: ['Subscribed Users'] };
+async function sendPush(subscriberIds, title, body, url) {
+  if (subscriberIds.length === 0) {
+    console.log('No active subscribers - skipping push:', title);
+    return;
+  }
 
   const res = await fetch('https://onesignal.com/api/v1/notifications', {
     method: 'POST',
@@ -81,13 +93,13 @@ async function sendPush(title, body, url) {
     },
     body: JSON.stringify({
       app_id: ONESIGNAL_APP_ID,
-      ...targeting,
+      include_subscription_ids: subscriberIds,
       headings: { en: title },
       contents: { en: body },
       ...(url ? { url } : {})
     })
   });
-    const resultText = await res.text();
+  const resultText = await res.text();
   if (!res.ok) {
     console.error('OneSignal error:', res.status, resultText);
   } else {
@@ -103,6 +115,7 @@ async function main() {
   }
 
   const codes = [...new Set(leagueEntries().map(([, l]) => l.competitionCode))];
+  const subscriberIds = await fetchSubscriberIds();
 
   let allMatches = [];
   for (const code of codes) {
@@ -126,19 +139,19 @@ async function main() {
 
     const soonKey = `soon-${matchId}`;
     if ((m.status === 'SCHEDULED' || m.status === 'TIMED') && minsToKickoff > 0 && minsToKickoff <= LEAD_MINUTES && !state.notified[soonKey]) {
-      await sendPush('Kickoff soon', `${label} starts in about ${Math.round(minsToKickoff)} min.`);
+      await sendPush(subscriberIds, 'Kickoff soon', `${label} starts in about ${Math.round(minsToKickoff)} min.`);
       state.notified[soonKey] = true;
     }
 
     const liveKey = `live-${matchId}`;
     if ((m.status === 'IN_PLAY' || m.status === 'PAUSED') && !state.notified[liveKey]) {
-      await sendPush('Kickoff!', `${label} is underway now.`);
+      await sendPush(subscriberIds, 'Kickoff!', `${label} is underway now.`);
       state.notified[liveKey] = true;
     }
 
     const prevScore = state.scores[matchId];
     if ((m.status === 'IN_PLAY' || m.status === 'PAUSED') && prevScore && prevScore !== scoreNow) {
-      await sendPush('Goal!', `${label} — now ${scoreNow}.`);
+      await sendPush(subscriberIds, 'Goal!', `${label} — now ${scoreNow}.`);
     }
     if (['IN_PLAY', 'PAUSED', 'FINISHED'].includes(m.status)) {
       state.scores[matchId] = scoreNow;
@@ -147,7 +160,7 @@ async function main() {
     const ftKey = `ft-${matchId}`;
     if (m.status === 'FINISHED' && !state.notified[ftKey]) {
       const hlUrl = `https://www.youtube.com/results?search_query=${encodeURIComponent(label + ' highlights')}`;
-      await sendPush('Full time', `${label} finished ${scoreNow}.`, hlUrl);
+      await sendPush(subscriberIds, 'Full time', `${label} finished ${scoreNow}.`, hlUrl);
       state.notified[ftKey] = true;
     }
   }
