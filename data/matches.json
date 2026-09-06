@@ -31,8 +31,8 @@
     "league": "SA",
     "home": "Juventus",
     "away": "Milan",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-09-06T18:45:00Z",
-    "score": null
+    "score": "0-1"
   }
 ]
