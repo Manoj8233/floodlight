@@ -13,18 +13,18 @@
     "league": "PD",
     "home": "Valencia",
     "away": "Barça",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-09-06T14:15:00Z",
-    "score": "0-3"
+    "score": "0-5"
   },
   {
     "id": 560570,
     "league": "PL",
     "home": "Arsenal",
     "away": "Chelsea",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-09-06T15:30:00Z",
-    "score": "1-1"
+    "score": "2-1"
   },
   {
     "id": 558618,
