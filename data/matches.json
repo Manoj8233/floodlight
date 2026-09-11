@@ -58,7 +58,7 @@
     "league": "PD",
     "home": "Real Madrid",
     "away": "Rayo Vallecano",
-    "status": "2026-09-12 18:00:00Z",
+    "status": "TIMED",
     "utcDate": "2026-09-12T19:00:00Z",
     "score": null
   },
@@ -67,7 +67,7 @@
     "league": "PD",
     "home": "Levante",
     "away": "Barça",
-    "status": "2026-09-13 13:15:00Z",
+    "status": "TIMED",
     "utcDate": "2026-09-13T14:15:00Z",
     "score": null
   },
@@ -112,7 +112,7 @@
     "league": "PD",
     "home": "Real Sociedad",
     "away": "Atleti",
-    "status": "2026-09-13 18:00:00Z",
+    "status": "TIMED",
     "utcDate": "2026-09-13T19:00:00Z",
     "score": null
   }
