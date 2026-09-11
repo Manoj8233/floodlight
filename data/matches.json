@@ -4,7 +4,7 @@
     "league": "BL1",
     "home": "Dortmund",
     "away": "SC Paderborn",
-    "status": "2026-09-12 12:30:00Z",
+    "status": "TIMED",
     "utcDate": "2026-09-12T13:30:00Z",
     "score": null
   },
@@ -60,6 +60,60 @@
     "away": "Rayo Vallecano",
     "status": "TIMED",
     "utcDate": "2026-09-12T19:00:00Z",
+    "score": null
+  },
+  {
+    "id": 564675,
+    "league": "PD",
+    "home": "Levante",
+    "away": "Barça",
+    "status": "TIMED",
+    "utcDate": "2026-09-13T14:15:00Z",
+    "score": null
+  },
+  {
+    "id": 560580,
+    "league": "PL",
+    "home": "Man United",
+    "away": "Man City",
+    "status": "TIMED",
+    "utcDate": "2026-09-13T15:30:00Z",
+    "score": null
+  },
+  {
+    "id": 565800,
+    "league": "BL1",
+    "home": "Elversberg",
+    "away": "Bayern",
+    "status": "TIMED",
+    "utcDate": "2026-09-13T15:30:00Z",
+    "score": null
+  },
+  {
+    "id": 558608,
+    "league": "SA",
+    "home": "Sassuolo",
+    "away": "Juventus",
+    "status": "TIMED",
+    "utcDate": "2026-09-13T18:45:00Z",
+    "score": null
+  },
+  {
+    "id": 559691,
+    "league": "FL1",
+    "home": "Brest",
+    "away": "PSG",
+    "status": "TIMED",
+    "utcDate": "2026-09-13T18:45:00Z",
+    "score": null
+  },
+  {
+    "id": 564674,
+    "league": "PD",
+    "home": "Real Sociedad",
+    "away": "Atleti",
+    "status": "TIMED",
+    "utcDate": "2026-09-13T19:00:00Z",
     "score": null
   }
 ]
