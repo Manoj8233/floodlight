@@ -4,45 +4,45 @@
     "league": "BL1",
     "home": "Dortmund",
     "away": "SC Paderborn",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-09-12T13:30:00Z",
-    "score": "1-0"
+    "score": "3-0"
   },
   {
     "id": 560573,
     "league": "PL",
     "home": "Liverpool",
     "away": "Fulham",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-09-12T14:00:00Z",
-    "score": null
+    "score": "0-0"
   },
   {
     "id": 560574,
     "league": "PL",
     "home": "Aston Villa",
     "away": "Nottingham",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-09-12T14:00:00Z",
-    "score": null
+    "score": "1-2"
   },
   {
     "id": 560581,
     "league": "PL",
     "home": "Chelsea",
     "away": "Hull City",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-09-12T14:00:00Z",
-    "score": null
+    "score": "2-2"
   },
   {
     "id": 558600,
     "league": "SA",
     "home": "Lazio",
     "away": "Milan",
-    "status": "TIMED",
+    "status": "PAUSED",
     "utcDate": "2026-09-12T16:00:00Z",
-    "score": null
+    "score": "2-0"
   },
   {
     "id": 560577,
