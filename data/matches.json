@@ -49,18 +49,18 @@
     "league": "PL",
     "home": "Sunderland",
     "away": "Arsenal",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-09-12T19:00:00Z",
-    "score": "0-0"
+    "score": "0-2"
   },
   {
     "id": 564677,
     "league": "PD",
     "home": "Real Madrid",
     "away": "Rayo Vallecano",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-09-12T19:00:00Z",
-    "score": "0-0"
+    "score": "4-1"
   },
   {
     "id": 564675,
