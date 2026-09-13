@@ -4,27 +4,27 @@
     "league": "PD",
     "home": "Levante",
     "away": "Barça",
-    "status": "2026-09-13 14:15:00Z",
+    "status": "FINISHED",
     "utcDate": "2026-09-13T14:15:00Z",
-    "score": null
+    "score": "2-4"
   },
   {
     "id": 560580,
     "league": "PL",
     "home": "Man United",
     "away": "Man City",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-09-13T15:30:00Z",
-    "score": null
+    "score": "0-0"
   },
   {
     "id": 565800,
     "league": "BL1",
     "home": "Elversberg",
     "away": "Bayern",
-    "status": "TIMED",
+    "status": "PAUSED",
     "utcDate": "2026-09-13T15:30:00Z",
-    "score": null
+    "score": "0-1"
   },
   {
     "id": 558608,
