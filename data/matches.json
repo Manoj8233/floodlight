@@ -31,27 +31,27 @@
     "league": "SA",
     "home": "Sassuolo",
     "away": "Juventus",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-09-13T18:45:00Z",
-    "score": "0-0"
+    "score": "3-2"
   },
   {
     "id": 559691,
     "league": "FL1",
     "home": "Brest",
     "away": "PSG",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-09-13T18:45:00Z",
-    "score": "0-0"
+    "score": "0-1"
   },
   {
     "id": 564674,
     "league": "PD",
     "home": "Real Sociedad",
     "away": "Atleti",
-    "status": "2026-09-13 19:00:00Z",
+    "status": "FINISHED",
     "utcDate": "2026-09-13T19:00:00Z",
-    "score": null
+    "score": "0-3"
   },
   {
     "id": 558601,
