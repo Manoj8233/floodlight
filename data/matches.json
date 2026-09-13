@@ -13,36 +13,36 @@
     "league": "PL",
     "home": "Man United",
     "away": "Man City",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-09-13T15:30:00Z",
-    "score": "0-0"
+    "score": "0-1"
   },
   {
     "id": 565800,
     "league": "BL1",
     "home": "Elversberg",
     "away": "Bayern",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "utcDate": "2026-09-13T15:30:00Z",
-    "score": "0-1"
+    "score": "1-2"
   },
   {
     "id": 558608,
     "league": "SA",
     "home": "Sassuolo",
     "away": "Juventus",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-09-13T18:45:00Z",
-    "score": null
+    "score": "0-0"
   },
   {
     "id": 559691,
     "league": "FL1",
     "home": "Brest",
     "away": "PSG",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-09-13T18:45:00Z",
-    "score": null
+    "score": "0-0"
   },
   {
     "id": 564674,
