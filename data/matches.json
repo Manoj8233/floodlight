@@ -4,18 +4,18 @@
     "league": "PD",
     "home": "Atleti",
     "away": "Osasuna",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-09-16T17:00:00Z",
-    "score": "3-0"
+    "score": "4-0"
   },
   {
     "id": 564687,
     "league": "PD",
     "home": "Barça",
     "away": "Santander",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-09-16T19:30:00Z",
-    "score": null
+    "score": "7-2"
   },
   {
     "id": 565804,
