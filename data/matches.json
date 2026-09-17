@@ -1,23 +1,5 @@
 [
   {
-    "id": 564684,
-    "league": "PD",
-    "home": "Atleti",
-    "away": "Osasuna",
-    "status": "FINISHED",
-    "utcDate": "2026-09-16T17:00:00Z",
-    "score": "4-0"
-  },
-  {
-    "id": 564687,
-    "league": "PD",
-    "home": "Barça",
-    "away": "Santander",
-    "status": "FINISHED",
-    "utcDate": "2026-09-16T19:30:00Z",
-    "score": "7-2"
-  },
-  {
     "id": 565804,
     "league": "BL1",
     "home": "Bayern",
@@ -33,6 +15,51 @@
     "away": "Chelsea",
     "status": "TIMED",
     "utcDate": "2026-09-18T19:00:00Z",
+    "score": null
+  },
+  {
+    "id": 560587,
+    "league": "PL",
+    "home": "Tottenham",
+    "away": "Aston Villa",
+    "status": "TIMED",
+    "utcDate": "2026-09-19T11:30:00Z",
+    "score": null
+  },
+  {
+    "id": 560586,
+    "league": "PL",
+    "home": "Brighton Hove",
+    "away": "Arsenal",
+    "status": "TIMED",
+    "utcDate": "2026-09-19T14:00:00Z",
+    "score": null
+  },
+  {
+    "id": 558593,
+    "league": "SA",
+    "home": "Roma",
+    "away": "Inter",
+    "status": "TIMED",
+    "utcDate": "2026-09-19T16:00:00Z",
+    "score": null
+  },
+  {
+    "id": 565806,
+    "league": "BL1",
+    "home": "Stuttgart",
+    "away": "Dortmund",
+    "status": "TIMED",
+    "utcDate": "2026-09-19T16:30:00Z",
+    "score": null
+  },
+  {
+    "id": 564690,
+    "league": "PD",
+    "home": "Sevilla FC",
+    "away": "Barça",
+    "status": "TIMED",
+    "utcDate": "2026-09-19T19:00:00Z",
     "score": null
   }
 ]
