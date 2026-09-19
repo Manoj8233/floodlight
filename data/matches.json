@@ -1,23 +1,5 @@
 [
   {
-    "id": 565804,
-    "league": "BL1",
-    "home": "Bayern",
-    "away": "Union Berlin",
-    "status": "FINISHED",
-    "utcDate": "2026-09-18T18:30:00Z",
-    "score": "7-0"
-  },
-  {
-    "id": 560591,
-    "league": "PL",
-    "home": "Brentford",
-    "away": "Chelsea",
-    "status": "FINISHED",
-    "utcDate": "2026-09-18T19:00:00Z",
-    "score": "3-0"
-  },
-  {
     "id": 560587,
     "league": "PL",
     "home": "Tottenham",
