@@ -4,18 +4,18 @@
     "league": "PL",
     "home": "Tottenham",
     "away": "Aston Villa",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-09-19T11:30:00Z",
-    "score": null
+    "score": "2-3"
   },
   {
     "id": 560586,
     "league": "PL",
     "home": "Brighton Hove",
     "away": "Arsenal",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-09-19T14:00:00Z",
-    "score": null
+    "score": "1-0"
   },
   {
     "id": 558593,
