@@ -22,27 +22,27 @@
     "league": "SA",
     "home": "Roma",
     "away": "Inter",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-09-19T16:00:00Z",
-    "score": "2-1"
+    "score": "2-2"
   },
   {
     "id": 565806,
     "league": "BL1",
     "home": "Stuttgart",
     "away": "Dortmund",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-09-19T16:30:00Z",
-    "score": "0-0"
+    "score": "0-1"
   },
   {
     "id": 564690,
     "league": "PD",
     "home": "Sevilla FC",
     "away": "Barça",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-09-19T19:00:00Z",
-    "score": null
+    "score": "1-1"
   },
   {
     "id": 560582,
