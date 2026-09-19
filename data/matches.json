@@ -13,27 +13,27 @@
     "league": "PL",
     "home": "Brighton Hove",
     "away": "Arsenal",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-09-19T14:00:00Z",
-    "score": "1-0"
+    "score": "3-0"
   },
   {
     "id": 558593,
     "league": "SA",
     "home": "Roma",
     "away": "Inter",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-09-19T16:00:00Z",
-    "score": null
+    "score": "2-1"
   },
   {
     "id": 565806,
     "league": "BL1",
     "home": "Stuttgart",
     "away": "Dortmund",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-09-19T16:30:00Z",
-    "score": null
+    "score": "0-0"
   },
   {
     "id": 564690,
