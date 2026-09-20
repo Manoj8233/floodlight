@@ -49,17 +49,17 @@
     "league": "SA",
     "home": "Milan",
     "away": "Lecce",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-09-20T18:45:00Z",
-    "score": "0-0"
+    "score": "3-0"
   },
   {
     "id": 559675,
     "league": "FL1",
     "home": "Marseille",
     "away": "PSG",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-09-20T18:45:00Z",
-    "score": "0-0"
+    "score": "1-2"
   }
 ]
