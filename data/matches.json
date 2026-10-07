@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": 565820,
+    "league": "BL1",
+    "home": "Dortmund",
+    "away": "Bremen",
+    "status": "TIMED",
+    "utcDate": "2026-10-09T18:30:00Z",
+    "score": null
+  }
+]
