@@ -58,36 +58,36 @@
     "league": "PL",
     "home": "Man United",
     "away": "Tottenham",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-10-10T16:30:00Z",
-    "score": "0-0"
+    "score": "1-1"
   },
   {
     "id": 564700,
     "league": "PD",
     "home": "Barça",
     "away": "Getafe",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-10-10T16:30:00Z",
-    "score": "2-0"
+    "score": "3-0"
   },
   {
     "id": 559672,
     "league": "FL1",
     "home": "PSG",
     "away": "Le Mans",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-10-10T18:45:00Z",
-    "score": null
+    "score": "3-1"
   },
   {
     "id": 564702,
     "league": "PD",
     "home": "Real Madrid",
     "away": "Villarreal",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-10-10T19:00:00Z",
-    "score": null
+    "score": "1-0"
   },
   {
     "id": 560598,
