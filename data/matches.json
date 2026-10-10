@@ -13,63 +13,63 @@
     "league": "BL1",
     "home": "Augsburg",
     "away": "Bayern",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-10-10T13:30:00Z",
-    "score": null
+    "score": "2-2"
   },
   {
     "id": 560595,
     "league": "PL",
     "home": "Chelsea",
     "away": "Bournemouth",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-10-10T14:00:00Z",
-    "score": null
+    "score": "5-1"
   },
   {
     "id": 560601,
     "league": "PL",
     "home": "Aston Villa",
     "away": "Brentford",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-10-10T14:00:00Z",
-    "score": null
+    "score": "2-2"
   },
   {
     "id": 564699,
     "league": "PD",
     "home": "Alavés",
     "away": "Atleti",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-10-10T14:15:00Z",
-    "score": null
+    "score": "1-2"
   },
   {
     "id": 558582,
     "league": "SA",
     "home": "Inter",
     "away": "Parma",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-10-10T16:00:00Z",
-    "score": null
+    "score": "3-0"
   },
   {
     "id": 560600,
     "league": "PL",
     "home": "Man United",
     "away": "Tottenham",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-10-10T16:30:00Z",
-    "score": null
+    "score": "0-0"
   },
   {
     "id": 564700,
     "league": "PD",
     "home": "Barça",
     "away": "Getafe",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-10-10T16:30:00Z",
-    "score": null
+    "score": "2-0"
   },
   {
     "id": 559672,
