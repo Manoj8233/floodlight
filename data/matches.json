@@ -4,18 +4,18 @@
     "league": "PL",
     "home": "Everton",
     "away": "Chelsea",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-10-17T11:30:00Z",
-    "score": null
+    "score": "0-1"
   },
   {
     "id": 564710,
     "league": "PD",
     "home": "Espanyol",
     "away": "Atleti",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-10-17T12:00:00Z",
-    "score": null
+    "score": "0-0"
   },
   {
     "id": 565821,
