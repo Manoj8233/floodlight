@@ -49,45 +49,45 @@
     "league": "FL1",
     "home": "Strasbourg",
     "away": "PSG",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-10-17T15:15:00Z",
-    "score": "1-0"
+    "score": "1-3"
   },
   {
     "id": 558571,
     "league": "SA",
     "home": "Bologna",
     "away": "Inter",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-10-17T16:00:00Z",
-    "score": "1-0"
+    "score": "1-3"
   },
   {
     "id": 560607,
     "league": "PL",
     "home": "Newcastle",
     "away": "Aston Villa",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-10-17T16:30:00Z",
-    "score": null
+    "score": "0-1"
   },
   {
     "id": 564713,
     "league": "PD",
     "home": "Real Betis",
     "away": "Barça",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-10-17T16:30:00Z",
-    "score": null
+    "score": "2-5"
   },
   {
     "id": 565825,
     "league": "BL1",
     "home": "Bayern",
     "away": "RB Leipzig",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-10-17T16:30:00Z",
-    "score": null
+    "score": "6-1"
   },
   {
     "id": 560605,
