@@ -31,17 +31,17 @@
     "league": "SA",
     "home": "Juventus",
     "away": "Lazio",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-10-18T18:45:00Z",
-    "score": "0-1"
+    "score": "0-3"
   },
   {
     "id": 564709,
     "league": "PD",
     "home": "Real Madrid",
     "away": "Sevilla FC",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-10-18T19:00:00Z",
-    "score": "0-0"
+    "score": "4-1"
   }
 ]
