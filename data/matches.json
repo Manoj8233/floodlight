@@ -13,7 +13,7 @@
     "league": "PL",
     "home": "Nottingham",
     "away": "Arsenal",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-10-18T15:30:00Z",
     "score": "0-1"
   },
@@ -22,26 +22,26 @@
     "league": "SA",
     "home": "Milan",
     "away": "Atalanta",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-10-18T16:00:00Z",
-    "score": "3-0"
+    "score": "3-2"
   },
   {
     "id": 558570,
     "league": "SA",
     "home": "Juventus",
     "away": "Lazio",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-10-18T18:45:00Z",
-    "score": null
+    "score": "0-1"
   },
   {
     "id": 564709,
     "league": "PD",
     "home": "Real Madrid",
     "away": "Sevilla FC",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-10-18T19:00:00Z",
-    "score": null
+    "score": "0-0"
   }
 ]
