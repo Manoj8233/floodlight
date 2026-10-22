@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "id": 560614,
+    "league": "PL",
+    "home": "Aston Villa",
+    "away": "Man City",
+    "status": "TIMED",
+    "utcDate": "2026-10-24T11:30:00Z",
+    "score": null
+  },
+  {
+    "id": 560616,
+    "league": "PL",
+    "home": "Arsenal",
+    "away": "Everton",
+    "status": "TIMED",
+    "utcDate": "2026-10-24T14:00:00Z",
+    "score": null
+  },
+  {
+    "id": 560617,
+    "league": "PL",
+    "home": "Chelsea",
+    "away": "Tottenham",
+    "status": "TIMED",
+    "utcDate": "2026-10-24T16:30:00Z",
+    "score": null
+  },
+  {
+    "id": 565837,
+    "league": "BL1",
+    "home": "Dortmund",
+    "away": "Frankfurt",
+    "status": "TIMED",
+    "utcDate": "2026-10-24T16:30:00Z",
+    "score": null
+  },
+  {
+    "id": 564724,
+    "league": "PD",
+    "home": "Atleti",
+    "away": "Deportivo",
+    "status": "TIMED",
+    "utcDate": "2026-10-24T19:00:00Z",
+    "score": null
+  }
+]
