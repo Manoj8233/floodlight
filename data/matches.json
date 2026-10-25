@@ -4,27 +4,27 @@
     "league": "SA",
     "home": "Inter",
     "away": "Fiorentina",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-10-25T11:30:00Z",
-    "score": null
+    "score": "2-1"
   },
   {
     "id": 560612,
     "league": "PL",
     "home": "Liverpool",
     "away": "Brighton Hove",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-10-25T14:00:00Z",
-    "score": null
+    "score": "2-0"
   },
   {
     "id": 560615,
     "league": "PL",
     "home": "Man United",
     "away": "Bournemouth",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-10-25T14:00:00Z",
-    "score": null
+    "score": "0-3"
   },
   {
     "id": 565836,
