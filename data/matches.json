@@ -4,9 +4,9 @@
     "league": "FL1",
     "home": "PSG",
     "away": "Olympique Lyon",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-10-26T19:30:00Z",
-    "score": null
+    "score": "0-0"
   },
   {
     "id": 558549,
