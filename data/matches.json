@@ -1,74 +1,38 @@
 [
   {
-    "id": 558563,
-    "league": "SA",
-    "home": "Inter",
-    "away": "Fiorentina",
-    "status": "FINISHED",
-    "utcDate": "2026-10-25T11:30:00Z",
-    "score": "2-1"
-  },
-  {
-    "id": 560612,
-    "league": "PL",
-    "home": "Liverpool",
-    "away": "Brighton Hove",
-    "status": "FINISHED",
-    "utcDate": "2026-10-25T14:00:00Z",
-    "score": "2-0"
-  },
-  {
-    "id": 560615,
-    "league": "PL",
-    "home": "Man United",
-    "away": "Bournemouth",
-    "status": "FINISHED",
-    "utcDate": "2026-10-25T14:00:00Z",
-    "score": "0-3"
-  },
-  {
-    "id": 565836,
-    "league": "BL1",
-    "home": "Freiburg",
-    "away": "Bayern",
-    "status": "FINISHED",
-    "utcDate": "2026-10-25T16:30:00Z",
-    "score": "1-3"
-  },
-  {
-    "id": 558566,
-    "league": "SA",
-    "home": "Lecce",
-    "away": "Juventus",
-    "status": "FINISHED",
-    "utcDate": "2026-10-25T17:00:00Z",
-    "score": "0-2"
-  },
-  {
-    "id": 558559,
-    "league": "SA",
-    "home": "Udinese",
-    "away": "Milan",
-    "status": "FINISHED",
-    "utcDate": "2026-10-25T19:45:00Z",
-    "score": "0-2"
-  },
-  {
-    "id": 564723,
-    "league": "PD",
-    "home": "Barça",
-    "away": "Real Madrid",
-    "status": "FINISHED",
-    "utcDate": "2026-10-25T20:00:00Z",
-    "score": "1-2"
-  },
-  {
     "id": 559648,
     "league": "FL1",
     "home": "PSG",
     "away": "Olympique Lyon",
     "status": "TIMED",
     "utcDate": "2026-10-26T19:30:00Z",
+    "score": null
+  },
+  {
+    "id": 558549,
+    "league": "SA",
+    "home": "Milan",
+    "away": "Bologna",
+    "status": "TIMED",
+    "utcDate": "2026-10-28T17:30:00Z",
+    "score": null
+  },
+  {
+    "id": 558550,
+    "league": "SA",
+    "home": "Venezia FC",
+    "away": "Inter",
+    "status": "TIMED",
+    "utcDate": "2026-10-28T17:30:00Z",
+    "score": null
+  },
+  {
+    "id": 558552,
+    "league": "SA",
+    "home": "Genoa",
+    "away": "Juventus",
+    "status": "TIMED",
+    "utcDate": "2026-10-28T19:45:00Z",
     "score": null
   }
 ]
