@@ -4,27 +4,27 @@
     "league": "SA",
     "home": "Milan",
     "away": "Bologna",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-10-28T17:30:00Z",
-    "score": null
+    "score": "2-4"
   },
   {
     "id": 558550,
     "league": "SA",
     "home": "Venezia FC",
     "away": "Inter",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-10-28T17:30:00Z",
-    "score": null
+    "score": "0-2"
   },
   {
     "id": 558552,
     "league": "SA",
     "home": "Genoa",
     "away": "Juventus",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-10-28T19:45:00Z",
-    "score": null
+    "score": "2-0"
   },
   {
     "id": 559644,
