@@ -1,38 +1,74 @@
 [
   {
-    "id": 558549,
-    "league": "SA",
-    "home": "Milan",
-    "away": "Bologna",
-    "status": "FINISHED",
-    "utcDate": "2026-10-28T17:30:00Z",
-    "score": "2-4"
-  },
-  {
-    "id": 558550,
-    "league": "SA",
-    "home": "Venezia FC",
-    "away": "Inter",
-    "status": "FINISHED",
-    "utcDate": "2026-10-28T17:30:00Z",
-    "score": "0-2"
-  },
-  {
-    "id": 558552,
-    "league": "SA",
-    "home": "Genoa",
-    "away": "Juventus",
-    "status": "IN_PLAY",
-    "utcDate": "2026-10-28T19:45:00Z",
-    "score": "2-0"
-  },
-  {
     "id": 559644,
     "league": "FL1",
     "home": "Le Havre",
     "away": "PSG",
     "status": "TIMED",
     "utcDate": "2026-10-30T18:00:00Z",
+    "score": null
+  },
+  {
+    "id": 560626,
+    "league": "PL",
+    "home": "Chelsea",
+    "away": "Man United",
+    "status": "TIMED",
+    "utcDate": "2026-10-31T12:30:00Z",
+    "score": null
+  },
+  {
+    "id": 564730,
+    "league": "PD",
+    "home": "Levante",
+    "away": "Atleti",
+    "status": "TIMED",
+    "utcDate": "2026-10-31T13:00:00Z",
+    "score": null
+  },
+  {
+    "id": 560623,
+    "league": "PL",
+    "home": "Man City",
+    "away": "Brighton Hove",
+    "status": "TIMED",
+    "utcDate": "2026-10-31T15:00:00Z",
+    "score": null
+  },
+  {
+    "id": 565845,
+    "league": "BL1",
+    "home": "Bayern",
+    "away": "Dortmund",
+    "status": "TIMED",
+    "utcDate": "2026-10-31T17:30:00Z",
+    "score": null
+  },
+  {
+    "id": 558548,
+    "league": "SA",
+    "home": "Milan",
+    "away": "Inter",
+    "status": "TIMED",
+    "utcDate": "2026-10-31T19:45:00Z",
+    "score": null
+  },
+  {
+    "id": 560628,
+    "league": "PL",
+    "home": "Aston Villa",
+    "away": "Fulham",
+    "status": "TIMED",
+    "utcDate": "2026-10-31T20:00:00Z",
+    "score": null
+  },
+  {
+    "id": 564732,
+    "league": "PD",
+    "home": "Barça",
+    "away": "Alavés",
+    "status": "TIMED",
+    "utcDate": "2026-10-31T20:00:00Z",
     "score": null
   }
 ]
