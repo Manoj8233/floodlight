@@ -13,7 +13,7 @@
     "league": "PD",
     "home": "Levante",
     "away": "Atleti",
-    "status": "FINISHED",
+    "status": "TIMED",
     "utcDate": "2026-10-31T13:00:00Z",
     "score": "0-2"
   },
@@ -31,27 +31,27 @@
     "league": "BL1",
     "home": "Bayern",
     "away": "Dortmund",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-10-31T17:30:00Z",
-    "score": null
+    "score": "2-2"
   },
   {
     "id": 558548,
     "league": "SA",
     "home": "Milan",
     "away": "Inter",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-10-31T19:45:00Z",
-    "score": null
+    "score": "2-1"
   },
   {
     "id": 560628,
     "league": "PL",
     "home": "Aston Villa",
     "away": "Fulham",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-10-31T20:00:00Z",
-    "score": null
+    "score": "0-0"
   },
   {
     "id": 564732,
