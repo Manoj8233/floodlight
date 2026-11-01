@@ -4,9 +4,9 @@
     "league": "PD",
     "home": "Santander",
     "away": "Real Madrid",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-11-01T15:15:00Z",
-    "score": null
+    "score": "0-3"
   },
   {
     "id": 560631,
