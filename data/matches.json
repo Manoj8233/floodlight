@@ -13,17 +13,17 @@
     "league": "PL",
     "home": "Liverpool",
     "away": "Arsenal",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-11-01T16:30:00Z",
-    "score": null
+    "score": "0-1"
   },
   {
     "id": 558547,
     "league": "SA",
     "home": "Juventus",
     "away": "Napoli",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-11-01T19:45:00Z",
-    "score": "0-0"
+    "score": "2-0"
   }
 ]
