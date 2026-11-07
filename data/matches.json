@@ -4,36 +4,36 @@
     "league": "BL1",
     "home": "Dortmund",
     "away": "Elversberg",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-11-07T14:30:00Z",
-    "score": null
+    "score": "2-1"
   },
   {
     "id": 565851,
     "league": "BL1",
     "home": "Mainz",
     "away": "Bayern",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-11-07T14:30:00Z",
-    "score": null
+    "score": "1-2"
   },
   {
     "id": 560640,
     "league": "PL",
     "home": "Arsenal",
     "away": "Hull City",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-11-07T15:00:00Z",
-    "score": null
+    "score": "1-0"
   },
   {
     "id": 560641,
     "league": "PL",
     "home": "Nottingham",
     "away": "Man City",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-11-07T17:30:00Z",
-    "score": null
+    "score": "2-1"
   },
   {
     "id": 564741,
