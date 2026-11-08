@@ -4,16 +4,16 @@
     "league": "PL",
     "home": "Crystal Palace",
     "away": "Liverpool",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-11-08T14:00:00Z",
-    "score": "0-2"
+    "score": "1-3"
   },
   {
     "id": 560636,
     "league": "PL",
     "home": "Sunderland",
     "away": "Chelsea",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-11-08T14:00:00Z",
     "score": "1-0"
   },
@@ -22,36 +22,36 @@
     "league": "SA",
     "home": "Genoa",
     "away": "Milan",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-11-08T14:00:00Z",
-    "score": "0-2"
+    "score": "1-2"
   },
   {
     "id": 560639,
     "league": "PL",
     "home": "Man United",
     "away": "Aston Villa",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-11-08T16:30:00Z",
-    "score": null
+    "score": "4-4"
   },
   {
     "id": 558530,
     "league": "SA",
     "home": "Inter",
     "away": "Como 1907",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-11-08T17:00:00Z",
-    "score": null
+    "score": "2-0"
   },
   {
     "id": 558529,
     "league": "SA",
     "home": "Fiorentina",
     "away": "Juventus",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-11-08T19:45:00Z",
-    "score": null
+    "score": "0-0"
   },
   {
     "id": 564746,
