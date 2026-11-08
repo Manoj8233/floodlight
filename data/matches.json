@@ -49,17 +49,17 @@
     "league": "SA",
     "home": "Fiorentina",
     "away": "Juventus",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-11-08T19:45:00Z",
-    "score": "0-0"
+    "score": "2-2"
   },
   {
     "id": 564746,
     "league": "PD",
     "home": "Atleti",
     "away": "Barça",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-11-08T20:00:00Z",
-    "score": null
+    "score": "1-2"
   }
 ]
