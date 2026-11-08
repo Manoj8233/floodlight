@@ -4,27 +4,27 @@
     "league": "PL",
     "home": "Crystal Palace",
     "away": "Liverpool",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-11-08T14:00:00Z",
-    "score": null
+    "score": "0-2"
   },
   {
     "id": 560636,
     "league": "PL",
     "home": "Sunderland",
     "away": "Chelsea",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-11-08T14:00:00Z",
-    "score": null
+    "score": "1-0"
   },
   {
     "id": 558536,
     "league": "SA",
     "home": "Genoa",
     "away": "Milan",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-11-08T14:00:00Z",
-    "score": null
+    "score": "0-2"
   },
   {
     "id": 560639,
