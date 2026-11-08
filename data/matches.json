@@ -1,59 +1,5 @@
 [
   {
-    "id": 565850,
-    "league": "BL1",
-    "home": "Dortmund",
-    "away": "Elversberg",
-    "status": "FINISHED",
-    "utcDate": "2026-11-07T14:30:00Z",
-    "score": "2-1"
-  },
-  {
-    "id": 565851,
-    "league": "BL1",
-    "home": "Mainz",
-    "away": "Bayern",
-    "status": "FINISHED",
-    "utcDate": "2026-11-07T14:30:00Z",
-    "score": "1-2"
-  },
-  {
-    "id": 560640,
-    "league": "PL",
-    "home": "Arsenal",
-    "away": "Hull City",
-    "status": "FINISHED",
-    "utcDate": "2026-11-07T15:00:00Z",
-    "score": "1-0"
-  },
-  {
-    "id": 560641,
-    "league": "PL",
-    "home": "Nottingham",
-    "away": "Man City",
-    "status": "FINISHED",
-    "utcDate": "2026-11-07T17:30:00Z",
-    "score": "3-1"
-  },
-  {
-    "id": 564741,
-    "league": "PD",
-    "home": "Valencia",
-    "away": "Real Madrid",
-    "status": "FINISHED",
-    "utcDate": "2026-11-07T20:00:00Z",
-    "score": "0-3"
-  },
-  {
-    "id": 559635,
-    "league": "FL1",
-    "home": "PSG",
-    "away": "Troyes",
-    "status": "FINISHED",
-    "utcDate": "2026-11-07T20:05:00Z",
-    "score": "1-0"
-  },
-  {
     "id": 560635,
     "league": "PL",
     "home": "Crystal Palace",
