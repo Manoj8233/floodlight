@@ -4,54 +4,54 @@
     "league": "PL",
     "home": "Man City",
     "away": "Fulham",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-11-21T12:30:00Z",
-    "score": null
+    "score": "1-1"
   },
   {
     "id": 565862,
     "league": "BL1",
     "home": "M'gladbach",
     "away": "Dortmund",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-11-21T14:30:00Z",
-    "score": null
+    "score": "0-1"
   },
   {
     "id": 560642,
     "league": "PL",
     "home": "Chelsea",
     "away": "Leeds United",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-11-21T15:00:00Z",
-    "score": null
+    "score": "1-4"
   },
   {
     "id": 560644,
     "league": "PL",
     "home": "Aston Villa",
     "away": "Sunderland",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-11-21T15:00:00Z",
-    "score": null
+    "score": "0-0"
   },
   {
     "id": 559628,
     "league": "FL1",
     "home": "Nice",
     "away": "PSG",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-11-21T16:15:00Z",
-    "score": null
+    "score": "1-2"
   },
   {
     "id": 560651,
     "league": "PL",
     "home": "Newcastle",
     "away": "Arsenal",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "utcDate": "2026-11-21T17:30:00Z",
-    "score": null
+    "score": "0-0"
   },
   {
     "id": 564754,
