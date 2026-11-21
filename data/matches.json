@@ -40,27 +40,27 @@
     "league": "FL1",
     "home": "Nice",
     "away": "PSG",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-11-21T16:15:00Z",
-    "score": "1-2"
+    "score": "2-3"
   },
   {
     "id": 560651,
     "league": "PL",
     "home": "Newcastle",
     "away": "Arsenal",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "utcDate": "2026-11-21T17:30:00Z",
-    "score": "0-0"
+    "score": "2-2"
   },
   {
     "id": 564754,
     "league": "PD",
     "home": "Real Madrid",
     "away": "Celta",
-    "status": "TIMED",
+    "status": "FINISHED",
     "utcDate": "2026-11-21T20:00:00Z",
-    "score": null
+    "score": "2-1"
   },
   {
     "id": 558521,
