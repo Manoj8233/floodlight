@@ -1,14 +1,5 @@
 [
   {
-    "id": 565859,
-    "league": "BL1",
-    "home": "Bayern",
-    "away": "1. FC Köln",
-    "status": "IN_PLAY",
-    "utcDate": "2026-11-20T19:30:00Z",
-    "score": "1-1"
-  },
-  {
     "id": 560643,
     "league": "PL",
     "home": "Man City",
