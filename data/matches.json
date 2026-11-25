@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "id": 560658,
+    "league": "PL",
+    "home": "Nottingham",
+    "away": "Chelsea",
+    "status": "TIMED",
+    "utcDate": "2026-11-27T20:00:00Z",
+    "score": null
+  }
+]
